@@ -1,5 +1,6 @@
 import React from 'react'
 import { DocsThemeConfig } from 'nextra-theme-docs'
+import { useRouter } from 'next/router'
 
 const config: DocsThemeConfig = {
   logo: <span>Pylo</span>,
@@ -10,7 +11,14 @@ const config: DocsThemeConfig = {
   footer: {
     text: '(c) 2025 DiamondGotCat',
   },
-  titleTemplate: '%s – Pylo Docs',
+  useNextSeoProps() {
+    const { asPath } = useRouter()
+    if (asPath !== '/') {
+      return {
+        titleTemplate: '%s – Nextra'
+      }
+    }
+  },
 }
 
 export default config
