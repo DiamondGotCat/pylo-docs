@@ -10,6 +10,7 @@ const config: DocsThemeConfig = {
   footer: {
     text: '(c) 2025 DiamondGotCat',
   },
+  titleTemplate: '%s – Pylo Docs',
 }
 
 export default config
