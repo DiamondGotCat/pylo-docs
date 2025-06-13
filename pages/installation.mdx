@@ -1,0 +1,32 @@
+# Installation
+
+## (A) Official Installer [Binary]
+
+```bash filename="installation-bash.sh" {4} copy
+git clone https://github.com/DiamondGotCat/Pylo.git
+cd Pylo
+pip3 install requests
+python3 installer.py # You can also update with the same command.
+echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.bashrc
+pylo -V
+```
+
+```zsh filename="installation-zsh.sh" {4} copy
+git clone https://github.com/DiamondGotCat/Pylo.git
+cd Pylo
+pip3 install requests
+python3 installer.py # You can also update with the same command.
+echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.zshrc
+pylo -V
+```
+
+The official installer downloads and installs the latest official Pylo build binaries.
+
+Note that some features behave differently depending on whether you're using the binaries or running the Python code directly.
+
+For more information, see [Binaries vs Python](/bin-vs-python).
+
+## (B) Manual Install [Binary]
+Download the binary and install it yourself.
+
+Get the official version [here](https://github.com/DiamondGotCat/Pylo/releases/).

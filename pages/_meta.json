@@ -1,15 +1,13 @@
 {
   "index": "Introduction",
-  "another": "Another Page",
-  "advanced": "Advanced (A Folder)",
-  "about": {
-    "title": "About",
-    "type": "page"
-  },
-  "contact": {
-    "title": "Contact ↗",
+  "installation": "Installation",
+  "bin-vs-python": "Binary vs Python",
+  "guide": "Guide",
+  "other-sources": "Other sources",
+  "github": {
+    "title": "GitHub",
     "type": "page",
-    "href": "https://twitter.com/shuding_",
+    "href": "https://github.com/DiamondGotCat/Pylo/",
     "newWindow": true
   }
 }
