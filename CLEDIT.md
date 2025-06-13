@@ -1,0 +1,1 @@
+- [Nextra](https://github.com/shuding/nextra/) by Shu Ding, Copyright (c) 2020 Shu Ding (MIT License)
