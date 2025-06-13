@@ -3,11 +3,5 @@
   "installation": "Installation",
   "bin-vs-python": "Binary vs Python",
   "guide": "Guide",
-  "other-sources": "Other sources",
-  "github": {
-    "title": "GitHub",
-    "type": "page",
-    "href": "https://github.com/DiamondGotCat/Pylo/",
-    "newWindow": true
-  }
+  "other-sources": "Other sources"
 }
