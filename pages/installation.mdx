@@ -22,7 +22,7 @@ pylo -V
 
 The official installer downloads and installs the latest official Pylo build binaries.
 
-Note that some features behave differently depending on whether you're using the binaries or running the Python code directly.
+Note that speeds vary depending on whether you're using the binary or running the Python code directly.
 
 For more information, see [Binaries vs Python](/bin-vs-python).
 
@@ -30,3 +30,13 @@ For more information, see [Binaries vs Python](/bin-vs-python).
 Download the binary and install it yourself.
 
 Get the official version [here](https://github.com/DiamondGotCat/Pylo/releases/).
+
+## (C) Run Python File [Python]
+Use the Pylo source code as is.
+
+```bash filename="installation-python.sh" {4} copy
+git clone https://github.com/DiamondGotCat/Pylo.git
+cd Pylo
+pip3 install -r requirements.txt
+python3 pylo.py -V
+```

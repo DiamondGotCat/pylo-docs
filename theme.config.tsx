@@ -6,7 +6,7 @@ const config: DocsThemeConfig = {
   project: {
     link: 'https://github.com/DiamondGotCat/Pylo/',
   },
-  docsRepositoryBase: 'https://github.com/DiamondGotCat/pylo-docs/',
+  docsRepositoryBase: 'https://github.com/DiamondGotCat/pylo-docs/blob/main/',
   footer: {
     text: '(c) 2025 DiamondGotCat',
   },
