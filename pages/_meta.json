@@ -2,6 +2,7 @@
   "index": "Pylo Docs",
   "installation": "Installation",
   "bin-vs-python": "Binary vs Python",
+  "compatible-python-versions": "Compatible Python Versions",
   "guide": "Guide",
   "modules": "Modules",
   "other-sources": "Other sources"
