@@ -1,20 +1,16 @@
 # Binary vs Python
-Official binaries of Pylo are built using PyInstaller.
+Official Pylo binaries are built using PyInstaller.
 
-Pylo is written on top of Python, and such a tool was required to build it.
-
-This page compares the ease of use, speed, etc. of running Python files directly vs. using the binary version.
+This page compares the ease of use, speed, and performance of running Pylo as a binary versus executing the Python source code directly.
 
 ## Binary
-Pylo's binary version is a self-contained program, its performance tied to your system's kernel and architecture.
+Pylo's binary version is a self-contained executable, with performance optimized for your system's architecture and kernel.
 
-While it's slower to launch, once running, Pylo scripts execute dramatically faster than the Python version.
+While the startup time is slightly longer, Pylo scripts run significantly faster compared to the Python version.
 
-Choose the binary for optimal speed. However, its slow startup makes the Python version preferable for frequent launches, such as during development.
+Use the binary version for optimal runtime performance. However, if you frequently launch and close the program during development, the Python version may be more convenient.
 
 ## Python
-Let's examine the Python version.
+The Python version of Pylo starts up very quickly but has lower execution performance once running.
 
-Pylo's Python version boasts incredibly fast startup times, but processing speed lags afterward.
-
-It's not ideal for performance-critical applications. However, its rapid startup is perfect for developers who frequently open and close the program.
+It’s not ideal for performance-critical use cases, but its fast startup makes it an excellent choice for active development and debugging.

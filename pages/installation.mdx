@@ -6,42 +6,46 @@
 git clone https://github.com/DiamondGotCat/Pylo.git
 cd Pylo
 pip3 install requests
-python3 installer.py # You can also update with the same command.
+python3 installer.py
 echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.bashrc
 pylo -V
-```
+````
 
 ```zsh filename="installation-zsh.sh" {4} copy
 git clone https://github.com/DiamondGotCat/Pylo.git
 cd Pylo
 pip3 install requests
-python3 installer.py # You can also update with the same command.
+python3 installer.py
 echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.zshrc
 pylo -V
 ```
 
-The official installer downloads and installs the latest official Pylo build binaries.
+The official installer downloads and installs the latest official Pylo binary build.
 
-Note that speeds vary depending on whether you're using the binary or running the Python code directly.
+Note that download and setup speeds may vary depending on whether you're using the binary or running the Python code directly.
 
 For more information, see [Binary vs Python](/bin-vs-python).
 
-**Supported:**
-- macOS (Apple Silicon aarch64/arm64)
-- Windows (Intel x86_64, AMD amd64)
-- Linux (Intel x86_64, AMD amd64)
+**Supported platforms:**
+
+* macOS (Apple Silicon aarch64/arm64)
+* Windows (Intel x86_64, AMD amd64)
+* Linux (Intel x86_64, AMD amd64)
 
 ## (B) Manual Install [Binary]
-Download the binary and install it yourself.
+
+Download the binary and install it manually.
 
 Get the official version [here](https://github.com/DiamondGotCat/Pylo/releases/).
 
-**Supported:**
-- macOS (Apple Silicon aarch64/arm64)
-- Windows (Intel x86_64, AMD amd64)
-- Linux (Intel x86_64, AMD amd64)
+**Supported platforms:**
+
+* macOS (Apple Silicon aarch64/arm64)
+* Windows (Intel x86_64, AMD amd64)
+* Linux (Intel x86_64, AMD amd64)
 
 ## (C) Run Python File [Python]
+
 ```bash filename="installation-python.sh" {4} copy
 git clone https://github.com/DiamondGotCat/Pylo.git
 cd Pylo
@@ -49,9 +53,10 @@ pip3 install -r requirements.txt
 python3 pylo.py -V
 ```
 
-Use the Pylo source code as is.
+Use the Pylo source code directly.
 
-**Supported:**
-An operating system that can run the appropriate version of Python
+**Supported platforms:**
 
-You can check the Python version recommended by Pylo [here](/compatible-python-versions).
+Any operating system that can run a compatible version of Python.
+
+You can check the recommended Python versions for Pylo [here](/compatible-python-versions).
