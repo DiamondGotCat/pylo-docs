@@ -1,0 +1,66 @@
+# pylo
+System module
+
+## @.false (str)
+`"<false>"`
+
+## @.true (str)
+`"<true>"`
+
+## @.none (str)
+`"<none>"`
+
+## @.def (func)
+**Arguments:**
+- `module`: Module ID (use `@` or `root` to Eliminate the need to specify modules, e.g. `false`)
+- `id`: Variable ID
+- `content`: Content
+- `desc`: Description
+
+**Action:**
+Adds data to Pylo's internal data storage.
+
+## @.undef (func)
+**Arguments:**
+- `module`: Module ID (use `@` or `root` to Eliminate the need to specify modules, e.g. `false`)
+- `id`: Variable ID
+
+**Action:**
+Deletes data from Pylo's internal data storage system.
+If `module` and `id` are the same, the whole module will be deleted.
+
+## @.% (func -> str)
+**Arguments:**
+- `command`: Shell Command
+
+**Action:**
+Returns the result (stdout or stderr) of executing a shell command.
+
+**Alias:**
+- shell.run
+
+## shell.cwd.get (func -> str)
+**Action:**
+Returns the CWD(Current Working Directory) of the Pylo shell execution environment.
+
+## shell.cwd.set (func -> bool)
+**Arguments:**
+- `new`: Path String
+
+**Action:**
+Set the CWD of the Pylo shell execution environment.
+
+## pylo.version (str)
+Pylo's full version text (e.g. `Pylo 11.1`)
+
+## pylo.version.type (str)
+Pylo's distribution ID (e.g. `Pylo`)
+
+## pylo.version.number (str)
+Pylo's version number (e.g. `11.1`)
+
+---
+
+This is the end of this document for now, but there's more to follow.
+
+[Contribute to this page by continuing it on GitHub](https://github.com/DiamondGotCat/pylo-docs/blob/main/pages/modules/pylo.mdx)
